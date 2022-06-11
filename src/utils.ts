@@ -79,7 +79,7 @@ export const getFontFamilyString = ({
 }) => {
   for (const [fontFamilyString, id] of Object.entries(FONT_FAMILY)) {
     if (id === fontFamily) {
-      return `${fontFamilyString}, ${WINDOWS_EMOJI_FALLBACK_FONT}`;
+      return `${fontFamilyString}, BubbleTea, ${WINDOWS_EMOJI_FALLBACK_FONT}`;
     }
   }
   return WINDOWS_EMOJI_FALLBACK_FONT;
